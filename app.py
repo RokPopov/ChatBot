@@ -14,3 +14,14 @@ rem7 = int(input())
 
 age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
 
+print("Your age is " + str(age) + "; that's a good time to start programming!")
+print('Now I will prove to you that I can count to any number you want.')
+print("Enter a random number of your choice: ")
+
+i = 0
+number = int(input())
+while i <= number:
+    print(str(i) + "!")
+    i += 1
+
+print("Completed, have a nice day!")
