@@ -32,16 +32,16 @@ print("3. To determine the execution time of a program.")
 print("4. To interrupt the execution of a program.")
 
 answer = int(input())
-    if answer == 1:
-        print("Completed, have a nice day!")
-    elif answer == 2:
-        print("Please, try again!")
-    elif answer == 3:
-        print("Please, try again!")
-    elif answer == 4:
-        print("Please, try again!")
-    else:
-        print("Please, answer with a number from 1 to 4!")
+if answer == 1:
+    print("Completed, have a nice day!")
+elif answer == 2:
+    print("Please, try again!")
+elif answer == 3:
+    print("Please, try again!")
+elif answer == 4:
+    print("Please, try again!")
+else:
+    print("Please, answer with a number from 1 to 4!")
 
 
 print("Completed, have a nice day!")
